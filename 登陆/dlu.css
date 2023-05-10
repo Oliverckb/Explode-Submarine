@@ -1,0 +1,436 @@
+* {
+  	padding: 0;
+  	margin: 0;
+  }
+  .bg {
+				width: 100%;
+				height: 100%;
+				background: rgba(0, 0, 0, 0.3);
+				position: fixed;
+				top: 0;
+				left: 0;
+				display: none;
+				margin: auto;
+			}
+			.sz{
+				width: 100%;
+				height: 100%;
+				position: absolute;
+			}
+			.dw{ width: 20%;
+			height: 10%;
+			bottom: 5%;
+			right: 5%;
+				position: absolute;
+			}
+			.dw:hover{
+				transform: scale(1.2);
+			}
+			.tk{
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				opacity: 0.7;
+			}
+			.fm1{
+				width: 60%;
+				height: 15%;
+				top: 20%;
+				left: 20%;
+				position: absolute;
+				opacity: 1;
+			}
+			.fm2{
+				width: 40%;
+				height: 13%;
+				top: 38%;
+				left: 28%;
+				position: absolute;
+				opacity: 1;
+			}
+			.fm3{
+				width: 20%;
+				height: 35%;
+				top: 52%;
+				left: 25%;
+				position: absolute;
+				opacity: 1;
+			}
+			.fm4{
+				width: 30%;
+				height: 20%;
+				top: 70%;
+				left: 45%;
+				position: absolute;
+				opacity: 1;
+			}
+			.fm5{
+				width: 20%;
+				height: 10%;
+				top: 72.5%;
+				left: 47.5%;
+				position: absolute;
+				opacity: 1;
+			}
+			.bg .login {
+				width: 600px;
+				height: 400px;
+				
+				background: white;
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				margin: auto;
+				text-align: center;
+			}
+  
+  .dlu{
+  	width: 100%;
+  	height: 100%;
+  	position: absolute;
+  	z-index: 3;
+  }
+  .login img{
+  	position:absolute ;
+  	
+  }
+  .pic1{
+  	width: 20%;
+  	height: 20%;
+  	bottom: 8%;
+  	left: 5%;
+  	
+  	animation: sb1 3s linear infinite alternate;
+  }
+ .pic2{
+ 	width: 25%;
+ 	height: 25%;
+ 	bottom: 5%;
+ 	right: 5%;
+ 	
+ 	animation: sb2 3s linear infinite alternate;
+ }
+ 
+ /*背景1*/
+.dlubg{
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	opacity: 0.7;
+}
+.dlpt1{
+	width: 20%;
+	height: 14%;
+	top: 41%;
+	left: 12%;
+}
+.dlpt2{
+	width: 20%;
+	height: 14%;
+	top: 56%;
+	left: 12%;
+}
+
+.pict1{
+	width: 15%;
+	height: 10%;
+	top: 42.5%;
+	left: 15%;
+	
+}
+.pict2{
+	width: 15%;
+	height: 10%;
+	top: 57.5%;
+	left: 15%;
+}
+.boom1{
+	width: 10%;
+	height: 25%;
+	top: 10%;
+	left: 10%;
+	position: absolute;
+	
+	animation: boom1 0.55s linear  alternate;
+}
+.boom2{
+	width: 10%;
+	height: 25%;
+	top: 10%;
+	left: 16%;
+	position: absolute;
+	animation: boom1 1.1s linear  alternate;
+}
+.boom3{
+	width: 10%;
+	height: 25%;
+	top: 10%;
+	left: 22%;
+	position: absolute;
+	animation: boom1 1.66s linear  alternate;
+}
+.boom4{
+	width: 10%;
+	height: 25%;
+	top: 10%;
+	left: 28%;
+	position: absolute;
+	animation: boom1 2.2s linear  alternate;
+}
+.boom5{
+	width: 10%;
+	height: 25%;
+	top: 10%;
+	left: 35%;
+	position: absolute;
+	animation: boom1 2.75s linear  alternate;
+}
+.boom6{
+	width: 10%;
+	height: 25%;
+	top: 10%;
+	left: 41%;
+	position: absolute;
+	animation: boom1 3.30s linear  alternate;
+}
+.boom7{
+	width: 10%;
+	height: 25%;
+	top: 10%;
+	left: 55%;
+	position: absolute;
+	animation: boom1 3.85s linear  alternate;
+}
+.boom8{
+	width: 10%;
+	height: 25%;
+	top: 10%;
+	left: 61%;
+	position: absolute;
+	animation: boom1 4.40s linear  alternate;
+}
+.boom9{
+	width: 10%;
+	height: 25%;
+	top: 10%;
+	left: 67%;
+	position: absolute;
+	animation: boom1 4.95s linear  alternate;
+}
+.boom10{
+	width: 10%;
+	height: 25%;
+	top: 10%;
+	left: 73%;
+	position: absolute;
+	animation: boom1 5.4s linear  alternate;
+}
+.boom11{
+	width: 10%;
+	height: 25%;
+	top: 10%;
+	left: 79%;
+	position: absolute;
+	animation: boom1 5.90s linear  alternate;
+}
+
+/*标题名称*/
+
+.m{
+	width: 5%;
+	height: 25%;
+	top: 10%;
+	left: 12%;
+	position: absolute;
+	animation: m 0.5s linear  alternate;
+}
+.a{
+	width: 5%;
+	height: 25%;
+	top: 10%;
+	left: 18%;
+	position: absolute;
+	animation: a 1s linear  alternate;
+}
+.r{
+	width: 5%;
+	height: 25%;
+	top: 10%;
+	left: 24%;
+	position: absolute;
+	animation: r 1.5s linear  alternate;
+}
+.i{
+	width: 5%;
+	height: 25%;
+	top: 10%;
+	left: 31%;
+	position: absolute;
+	animation: i 2s linear  alternate;
+}
+.n{
+	width: 5%;
+	height: 25%;
+	top: 10%;
+	left: 37%;
+	position: absolute;
+	animation: n 2.5s linear  alternate;
+}
+.e{
+	width: 5%;
+	height: 25%;
+	top: 10%;
+	left: 43%;
+	position: absolute;
+	animation: e 3s linear  alternate;
+}
+.c{
+	width: 5%;
+	height: 25%;
+	top: 10%;
+	left: 57%;
+	position: absolute;
+	animation: c 3.5s linear  alternate;
+}
+.r2{
+	width: 5%;
+	height: 25%;
+	top: 10%;
+	left: 63%;
+	position: absolute;
+	animation: r2 4s linear  alternate;
+}
+.a2{
+	width: 5%;
+	height: 25%;
+	top: 10%;
+	left: 69%;
+	position: absolute;
+	animation: a2 4.5s linear  alternate;
+}
+.s{
+	width: 5%;
+	height: 25%;
+	top: 10%;
+	left: 75%;
+	position: absolute;
+	animation: s 5s linear  alternate;
+}
+.h{
+	width: 5%;
+	height: 25%;
+	top: 10%;
+	left: 81%;
+	position: absolute;
+	animation: h 5.5s linear  alternate;
+}
+
+
+
+.text1{
+	top: 45%;
+	left: 35%;
+	position: absolute;
+}
+.text2{
+	top: 60%;
+	left: 35%;
+	position: absolute;
+}
+.text3{
+	width: 15%;
+	height: 10%;
+	top: 70%;
+	left: 55%;
+	position: absolute;
+}
+.text3:hover{
+	transform: scale(1.1);
+}
+.dl233{
+	width: 20%;
+	height: 15%;
+	top: 67.5%;
+	left: 52.5%;
+	position: absolute;
+}
+
+@keyframes sb1{
+	0%{}
+	50%{transform: translateX(50px);}
+	100%{}
+	
+}
+@keyframes sb2{
+	0%{transform: scale(0.5);}
+	50%{transform: translateX(-50px) ;}
+	100%{transform:  scale(0.8);}
+	
+}
+@keyframes m{
+	0%{transform: scale(0) ;}
+	100%{transform: scale(1.8);}
+}
+@keyframes a{
+	0%{transform: scale(0) ;}
+	50%{transform: scale(0) ;}
+	100%{transform: scale(1.8);}
+}
+@keyframes r{
+	0%{transform: scale(0) ;}
+	
+	66.66%{transform: scale(0) ;}
+	100%{transform: scale(1.8);}
+}
+@keyframes i{
+	0%{transform: scale(0) ;}
+	
+	75%{transform: scale(0) ;}
+	100%{transform: scale(1.8);}
+}
+@keyframes n{
+	0%{transform: scale(0) ;}
+	80%{transform: scale(0) ;}
+	100%{transform: scale(1.8);}
+}
+@keyframes e{
+	0%{transform: scale(0) ;}
+	83.33%{transform: scale(0) ;}
+	100%{transform: scale(1.8);}
+}
+@keyframes c{
+	0%{transform: scale(0) ;}
+	85.71%{transform: scale(0) ;}
+	100%{transform: scale(1.8);}
+}
+@keyframes r2{
+	0%{transform: scale(0) ;}
+	87.5%{transform: scale(0) ;}
+	100%{transform: scale(1.8);}
+}
+@keyframes a2{
+	0%{transform: scale(0) ;}
+	88.88%{transform: scale(0) ;}
+	100%{transform: scale(1.8);}
+}
+@keyframes s{
+	0%{transform: scale(0) ;}
+	90%{transform: scale(0) ;}
+	100%{transform: scale(1.8);}
+}
+@keyframes h{
+	0%{transform: scale(0) ;}
+	91.1%{transform: scale(0) ;}
+	100%{transform: scale(1.8);}
+}
+@keyframes boom1{
+	0%{opacity: 0 ;}
+	90%{opacity: 0 ;}
+	100%{opacity: 1 ;transform: scale(1.2);}
+	
+}
+
+

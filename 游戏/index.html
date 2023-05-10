@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+
+	<body>
+		
+		<img src="img/beijing.jpg" class="beijing" />
+		<img src="img/xingxing.png" class="haixing"/>		
+		<img src="img/QQ图片20160706193401_副本.png" class="yu1"/>		
+		<img src="img/jellyfish.png" class="shuimu"/>
+		<img src="img/octopus.png" class="zhangyu"/>
+		<img src="img/QQ图片20160707084408_副本.png" class="qipao2"/>
+		<img src="img/tropical-fish.png" class="yu2"/>
+		<img src="img/whale.png" class="whale"/>
+		<img src="img/水草4.png" class="shuicao1"/>
+		<img src="img/shuicao.png" class="shuicao2"/>
+		<img src="img/水草2.png" class="shuicao3"/>
+		<img src="img/shuicao3.png" class="shuicao4"/>
+		<img src="img/shuicao3.png" class="shuicao5"/>
+		<img src="img/haima.png" class="haima"/>
+		<img src="img/水草2.png" class="shuicao6"/>
+		<img src="img/shuicao3.png" class="shuicao7"/>
+		<img src="img/卡通水中亲吻的鱼矢量素材1.png" class="xing"/>
+		<img src="img/水草2.png" class="shuicao8"/>
+		<img src="img/QQ图片20160706212915_副本.png" class="pangxie"/>
+		<img src="img/QQ图片20160706212850_副本.png" class="qipao3"/>
+		<canvas id="Marine_Crash" width="800px" height="600px"></canvas>
+		<div id="tishi">第1关</div>
+		<div id="jifenban">
+			<div id="fenshu">
+				分数:0
+			</div>
+			<div id="tongguan">
+				第1关<br />所需分数:50
+			</div>
+			<div id="jishi">
+				倒计时:30
+			</div>
+		</div>
+		<div id="xuanxiang">
+			<div id="zanting">暂停</div>
+			<div id="reset">重新开始</div>
+			<div id="fanhui">返回	</div>
+		</div>
+		<audio src="mp3/Ramin Djawadi - Pacific Rim剪辑.mp3" id="musicon" autoplay="autoplay" loop="loop" ></audio>
+	    <img src="img/musicBtn.png" id="img" onclick="playOrPause()"/>
+		<audio src="爆炸.mp3" id="baozha"></audio>
+		<audio src="过关.mp3" id="guoguan"></audio>
+		<a href="http://127.0.0.1:8020/%E7%81%AB%E7%82%8E%E7%84%B1%E7%87%9A%E5%9B%A2%E9%98%9F%E9%A1%B9%E7%9B%AE-%E6%AD%A3%E5%BC%8F%E7%89%88/%E6%8C%89%E9%92%AE/index.html" id="lianjie"></a>
+	</body>
+
+	<script type="text/javascript" src="js/main.js"></script>
+	<script>
+		var player=document.getElementById('musicon');
+		var img=document.getElementById('img');
+		function playOrPause(){
+			if(player.paused){
+				player.play();
+				img.src='img/musicBtn.png';
+			}else{
+				player.pause();
+				img.src='img/musicBtnOff.png';
+			}
+		}
+	</script>
+
+</html>

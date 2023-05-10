@@ -1,0 +1,344 @@
+*{//通配符
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url(../img/蓝色做旧背景矢量素材.jpg);	
+}
+
+#Marine_Crash{
+	border: 1px solid black;
+	border-radius: 10px;
+	position: absolute;
+	top:0 ;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.beijing{
+	width: 800px;
+	height: 600px;
+	position: absolute;
+	top:0 ;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	
+}
+.pangxie{
+	width: 50px;
+	height: 25px;
+	left: 22%;
+	bottom: 6%;
+	position: absolute;
+	animation: pahai 5s linear infinite alternate;
+}
+@keyframes pahai{
+	from{transform: translateX(0);}
+	to{transform: translateX(700px);}
+}
+.haixing{
+	width: 40px;
+	height: 30px;
+	left: 60%;
+	bottom: 10%;
+	position: absolute;
+}
+.haima{
+	width: 15px;
+	height: 40px;
+	left: 68%;
+	bottom: 35%;
+	opacity: 0.9;
+	position: absolute;
+	animation: haimaa 2s linear infinite alternate;
+}
+.shuimu{
+	width: 30px;
+	height: 30px;
+	left: 35%;
+	bottom: 53%;
+	opacity: 0.8;
+	position: absolute;
+	animation: haimaa 2s linear infinite alternate;
+}
+@keyframes haimaa{
+	from{transform: translateY(0);}
+	to{transform: translateY(15px) scale(1.2);}
+}
+.yu1{
+	width: 30px;
+	height: 20px;
+	left: 30%;
+	bottom: 20%;
+	opacity: 0.9;
+	position: absolute;
+	animation: yuyou 8s linear infinite;
+}
+@keyframes yuyou{
+	0%{transform: translateX(0) translateY(0);}
+	50%{transform: translateX(400px) translateY(-50px) rotateY(0);}
+	55%{transform: translateX(390px) translateY(-50px) rotateY(180deg);}
+	100%{transform: translateX(0) translateY(0) rotateY(0) rotateY(180deg);}
+}
+.zhangyu{
+	width: 30px;
+	height: 30px;
+	left: 50%;
+	bottom:40%;
+	position: absolute;
+	animation: zhang 3s linear infinite alternate;
+}
+@keyframes zhang{
+	from{transform: translateX(0) translateY(0) rotate(0deg);}
+	to{transform: translateX(-40px) translateY(-40px) rotate(-10deg);}
+}
+.qipao2{
+	width: 10px;
+	height: 10px;
+	left: 45%;
+	bottom: 10%;
+	position: absolute;
+	animation: paopao 10s linear infinite;
+}
+
+.qipao3{
+	width: 30px;
+	height: 30px;
+	left: 70%;
+	bottom: 8%;
+	position: absolute;
+	animation: paopao 10s linear infinite;
+}
+@keyframes paopao{
+	0%{transform: translateX(0px) translateY(0px) ;}
+	10%{transform: translateX(-10px) translateY(-50px) ;}
+	20%{transform: translateX(0px) translateY(-100px) ;}
+	30%{transform: translateX(-10px) translateY(-150px);}
+	40%{transform: translateX(0) translateY(-200px);}
+	50%{transform: translateX(-10px) translateY(-250px);}
+	60%{transform: translateX(0) translateY(-300px);}
+	70%{transform: translateX(-10px) translateY(-350px);}
+	80%{transform: translateX(0) translateY(-380px);}
+	100%{transform: translateX(-10px) translateY(-400px);}
+	
+}
+#jifenban{
+	width: 200px;
+	height: 150px;
+	box-shadow: 6px 6px 6px rgba(50,50,50,0.5);
+	left: 3%;
+	top: 40%;
+	background: url(../img/梦幻水珠背景矢量素材.jpg);
+	position: absolute;
+	border: 1px solid black;
+}
+#fenshu{
+	font-size: 2em;
+	color: red;
+	font-family: "微软雅黑";
+}
+#jishi{
+	font-size: 1.5em;
+	
+	font-family: "微软雅黑";
+}
+#tongguan{
+	font-size: 1.5em;
+	
+	font-family: "微软雅黑";
+}
+#xuanxiang{
+	width: 100px;
+	height: 80px;
+	right: 11%;
+	top: 40%;
+	position: absolute;
+	
+}
+#zanting{
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border: 3px solid black;
+	background:radial-gradient(circle,#ff0,#0f3);
+	box-shadow: 5px 5px 5px rgba(50,50,50,0.5);
+	text-align: center;
+	font-family: "楷体";
+	font-size: 1.5em;
+	position: absolute;
+	top: 0px;
+	transition: 0.6s;
+}
+#zanting:hover{
+	transform: scale(1.1);
+}
+#reset{
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	border: 3px solid black;
+	background:radial-gradient(circle,#ff0,#0f3);
+	box-shadow: 5px 5px 5px rgba(50,50,50,0.5);
+	text-align: center;
+	font-family: "楷体";
+	font-size: 1.5em;
+	position: absolute;
+	top: 70px;
+	transition: 0.6s;
+}
+#reset:hover{
+	transform: scale(1.1);
+}
+#fanhui{
+	width: 200px;
+	height: 40px;
+	border: 3px solid black;
+	box-shadow: 5px 5px 5px rgba(50,50,50,0.5);
+	background:radial-gradient(circle,#ff0,#0f3);
+	text-align: center ;
+	line-height: 40px;
+	font-family: "楷体";
+	font-size: 1.5em;
+	position: absolute;
+	top: 140px;	
+	transition: 0.6s;
+}
+#fanhui:hover{
+	transform: scale(1.1);
+}
+
+.yu2{
+	width: 25px;
+	height: 25px;
+	right: 300px;
+	top: 300px;
+	position: absolute;
+	animation: yupao 15s linear infinite;
+}
+.whale{
+	width: 50px;
+	height: 50px;
+	left: 23%;
+	top: 55%;
+	position: absolute;
+	animation: jingpao 15s linear infinite;
+}
+@keyframes yupao{
+	0%{transform: translateX(0px);}
+	45%{transform: translateX(-690px) rotateY(0deg);}
+	50%{transform: translateX(-700px) rotateY(180deg);}
+	95%{transform: translateX(-5px) rotateY(180deg);}
+	100%{transform: translateX(0px);}
+}
+@keyframes jingpao{
+	0%{transform: translateX(0px) rotateY(180deg);}
+	45%{transform: translateX(690px) rotateY(180deg);}
+	50%{transform: translateX(700px) rotateY(0deg);}
+	95%{transform: translateX(5px) rotateY(0deg);}
+	100%{transform: translateX(0px);}
+}
+.shuicao1{
+	width: 100px;
+	height: 50px;
+	left: 30%;
+	bottom: 11%;
+	position: absolute;
+}
+.shuicao2{
+	width: 40px;
+	height: 170px;
+	left: 50%;
+	bottom: 9%;
+	position: absolute;
+	animation: shui 2s linear infinite alternate;
+	transform-origin: 50% 100%;
+}
+.shuicao3{
+	width: 60px;
+	height: 80px;
+	left: 45%;
+	bottom: 8%;
+	position: absolute;
+}
+.shuicao4{
+	width: 60px;
+	height: 200px;
+	left: 38%;
+	bottom: 8%;
+	position: absolute;
+	animation: shui 2s linear infinite alternate;
+	transform-origin: 50% 100%;
+}
+.shuicao5{
+	width: 60px;
+	height: 300px;
+	left: 65%;
+	bottom: 8%;
+	position: absolute;
+	animation: shui 2s linear infinite alternate;
+	transform-origin: 50% 100%;
+}
+.shuicao6{
+	width: 40px;
+	height: 60px;
+	left: 55%;
+	bottom: 9%;
+	position: absolute;
+}
+.shuicao7{
+	width: 60px;
+	height: 200px;
+	left: 72%;
+	bottom: 7%;
+	position: absolute;
+	animation: shui 2s linear infinite alternate;
+	transform-origin: 50% 100%;
+}
+
+.shuicao8{
+	width: 60px;
+	height: 100px;
+	left: 23%;
+	bottom: 9%;
+	position: absolute;
+}
+@keyframes shui{
+	from{transform: rotate(-5deg);}
+	to{transform: rotate(3deg);}
+}
+.xing{
+	width: 60px;
+	height: 60px;
+	bottom: 4%;
+	left: 30%;
+	position: absolute;
+}
+#img{
+	position:absolute;
+	right:40px;
+	top:20px;
+	width:60px;
+	height:60px;
+	animation:xuanzhuan 2s linear infinite;
+}
+
+@keyframes xuanzhuan{
+	from{}
+	to{transform:rotate(360deg);}
+}
+#tishi{
+	width: 100px;	
+	top: 8%;
+	left: 45%;
+	/*border: 1px solid black;*/
+	position: absolute;
+	text-align: center;
+	font-size:1.8em ;
+	font-family: "微软雅黑";
+	color: red;
+}

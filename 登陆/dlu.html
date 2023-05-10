@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="dlu.css" />
+	</head>
+	<!DOCTYPE html>
+	<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+
+		</style>
+	</head>
+
+	<body>
+		<div id="box0">
+			<img src="img/梦幻水珠背景矢量素材.jpg" class="sz" />
+			<img src="img/继续1.png" id="login" class="dw" />
+			<img src="img/macr1.png" class="fm1"/>
+			<img src="img/fm22.png" class="fm2"/>
+			<img src="img/fm3.png" class="fm3"/>
+			<img src="img/fm44.png" class="fm4"/>
+			<img src="img/fm5.png" class="fm5"/>
+		</div>
+		<div class="bg" id="box1">
+			<img src="img/sz1.jpg" class="tk" />
+			
+			<div class="login">
+				<img src="img/haidi.jpg" class="dlubg" />
+				<img src="img/tu1.png" class="pic1" />
+				<img src="img/tu2.png" class="pic2" />
+
+				<img src="img/baozha2.png" class="boom1" />
+				<img src="img/baozha2.png" class="boom2" />
+				<img src="img/baozha2.png" class="boom3" />
+				<img src="img/baozha2.png" class="boom4" />
+				<img src="img/baozha2.png" class="boom5" />
+				<img src="img/baozha2.png" class="boom6" />
+				<img src="img/baozha2.png" class="boom7" />
+				<img src="img/baozha2.png" class="boom8" />
+				<img src="img/baozha2.png" class="boom9" />
+				<img src="img/baozha2.png" class="boom10" />
+				<img src="img/baozha2.png" class="boom11" />
+				<img src="img/m1.png" class="m" />
+				<img src="img/A1.png" class="a" />
+				<img src="img/R1.png" class="r" />
+				<img src="img/I1.png" class="i" />
+				<img src="img/N1.png" class="n" />
+				<img src="img/E1.png" class="e" />
+				<img src="img/C1.png" class="c" />
+				<img src="img/R1.png" class="r2" />
+				<img src="img/A1.png" class="a2" />
+				<img src="img/S1.png" class="s" />
+				<img src="img/H1.png" class="h" />
+<!--<img src="img/登录111.png" class="dlpt1"/>
+<img src="img/登录111.png" class="dlpt2"/>-->
+				<img src="img/账号666.png" class="pict1" />
+				<img src="img/密码666.png" class="pict2" />
+				<div class="dlu">
+					<br /><br />
+					<input type="text" id="un" class="text1" placeholder="请输入lhk" name="username" />
+					<br /><br />
+					<input type="password" id="mm" class="text2" name="password" placeholder="请输入123" maxlength="8" />
+					<br /><br />
+					<a id="Tz"> 
+						<!--<img src="img/登录111.png" class="dl233"/>-->
+						<img src="img/登录321.png" id="dl" class="text3" /> 
+					</a>
+				</div>
+			</div>
+		</div>
+
+	</body>
+	<audio src="img/bgm1.mp3" autoplay="autoplay" id="music1"></audio>
+	<audio src="img/bgm2.mp3"  id="music2"></audio>
+	<script>
+	 var go = document.getElementById('music1');
+	 var gogo = document.getElementById('music2');
+		var lg1 = document.getElementById("box0")
+		var box1 = document.getElementById('login');
+		var lg = document.getElementById('box1');
+		box1.onclick = function() {
+			lg.style.display = 'block';
+			lg1.style.display = 'none';
+			go.pause();
+			gogo.play();
+		}
+       
+		var box4 = document.getElementById('Tz');
+		var box3 = document.getElementById('un');
+		var box2 = document.getElementById('mm');
+		var dl = document.getElementById('dl');
+		dl.onclick = function() {
+			if (box2.value == 123 && box3.value == 'lhk') {
+				Tz.href = "http://127.0.0.1:8020/%E7%81%AB%E7%82%8E%E7%84%B1%E7%87%9A%E5%9B%A2%E9%98%9F%E9%A1%B9%E7%9B%AE-%E6%AD%A3%E5%BC%8F%E7%89%88/%E6%8C%89%E9%92%AE/index.html";
+				gogo.pause();
+			} else {
+				alert("账号密码错误");
+			}
+		}
+	</script>
+
+	</html>
