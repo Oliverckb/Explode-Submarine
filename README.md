@@ -4,6 +4,8 @@ Usage: Click the document and run index.html, then you will go to game page.
 
 How to play?
 
-1. press the -> or <- button to move battleship, and press space to drop bumps at proper place. Plus, you have 5 bumps at a time.
+1. Press the -> or <- button to move battleship.
 
-3. Each submarine worth 10 points. Get the sufficient points to get into next round.
+2. Press space to drop bumps at a proper place to explode submarines. Plus, you have 5 bumps at a time.
+
+3. Each submarine worth 10 points. Get the sufficient points within limited time period to get into next round, and the submarines will move faster in next round.
