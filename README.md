@@ -1,2 +1,2 @@
 # Explode-Submarine
-Usage: Run index.html, then you will go to game page.
+Usage: Click the document and run index.html, then you will go to game page.
